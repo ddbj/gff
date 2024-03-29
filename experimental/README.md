@@ -27,8 +27,8 @@ python gff2mss_for_MP_nonredundant.py
 python gff2mss_for_MP_redundant_as_misc.py
 ```
 
-## 処理内容
-### GFFの校正
+## 使用上の注意点
+### GFFの構成
 gene-ｍRNA-CDS,exon　という階層構造になっていて、ID-parentで親子関係が記載されていること。
 
 ### gene, product, locus_tag の各qualifierの扱い
